@@ -1,0 +1,71 @@
+:root {
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: #1f2933;
+  background: #f5f6f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  width: 100%;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  padding: 8px 16px;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.primary {
+  background: #2c6cf5;
+  border-color: #2c6cf5;
+  color: #ffffff;
+}
+
+.secondary {
+  background: #ffffff;
+  border-color: #cbd2d9;
+  color: #374151;
+}
+
+.danger {
+  background: #ffffff;
+  border-color: #e0b4b4;
+  color: #c0392b;
+}
+
+.refresh {
+  background: #2c6cf5;
+  border-color: #2c6cf5;
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.message {
+  color: #6b7280;
+}
+
+.message.error {
+  color: #c0392b;
+}
